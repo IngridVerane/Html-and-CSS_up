@@ -46,6 +46,23 @@ nav ul li.active{
     color: brown;
     font-weight: bold;
 }
+nav .menu-button{
+  width: 35px;
+  position: absolute;
+  right: 0;
+  top: 12px
+}
+@media screen  and (max-width:900px) {
+  nav ul li{ 
+    display: none;
+  }
+}
+@media screen  and (Min-width:900px) {
+  nav .menu-button{ 
+    display: none;
+  }
+}
+/*footer*/
 .container{
     max-width: 1170px;
     margin: auto;
